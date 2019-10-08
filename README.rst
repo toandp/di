@@ -1,12 +1,12 @@
-Apex/DI
+PHP tdp/di
 ======
 
-Apex/DI is a small Dependency Injection Container for PHP.
+PHP tdp/di is a small Dependency Injection Container for PHP.
 
 Installation
 ------------
 
-Before using Apex/DI in your project, add it to your ``composer.json`` file:
+Before using PHP tdp/di in your project, add it to your ``composer.json`` file:
 
 .. code-block:: bash
 
@@ -19,6 +19,6 @@ Creating a container is a matter of creating a ``Container`` instance:
 
 .. code-block:: php
 
-    use Apex\Di\Container;
+    use tdp\di\Container;
 
     $container = new Container();
