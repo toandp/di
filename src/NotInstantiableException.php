@@ -1,6 +1,6 @@
 <?php
 
-namespace Apex\Di;
+namespace tdp\di;
 
 use Exception;
 

@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Apex\\Di\\": "src/"
+            "tdp\\di\\": "src/"
         }
     }
 }

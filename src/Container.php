@@ -1,6 +1,6 @@
 <?php
 
-namespace Apex\Di;
+namespace tdp\di;
 
 use Closure;
 use Exception;
@@ -94,7 +94,7 @@ class Container implements ContainerInterface
      *
      * @return void
      *
-     * @throws \Apex\Di\EntryNotFoundException
+     * @throws \tdp\di\EntryNotFoundException
      */
     public function extend($id, Closure $callable)
     {
@@ -113,7 +113,7 @@ class Container implements ContainerInterface
      * 
      * @return object
      * 
-     * @throws \Apex\Di\NotInstantiableException
+     * @throws \tdp\di\NotInstantiableException
      */
     public function create($class, $params = [])
     {
@@ -156,7 +156,7 @@ class Container implements ContainerInterface
      * 
      * @return mixed
      *
-     * @throws \Apex\Di\EntryNotFoundException
+     * @throws \tdp\di\EntryNotFoundException
      */
     protected function resolve($id, array $parameters = [])
     {
